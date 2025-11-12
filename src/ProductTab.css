@@ -1,0 +1,9 @@
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #fffdf5;
+    padding: 20px;
+}

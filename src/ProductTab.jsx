@@ -1,11 +1,13 @@
 import Product from "./Product"
+import "./ProductTab.css"
 
 function ProductTab() {
     return (
-        <div>
-            <Product title="Phone" price={30000} />
-            <Product title="Laptop" price={60000} />
-            <Product title="Tab" price={45000} />
+        <div className="product-container">
+            <Product title="Logitech MX Master" idx={0} />
+            <Product title="Apple Pencil (2nd Gen)" idx={1} />
+            <Product title="Zebronic Zeb-transformer" idx={2} />
+            <Product title="Petronics Toad 23" idx={3} />
         </div>
     )
 }
